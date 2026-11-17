@@ -1,0 +1,16 @@
+:root{--ink:#18241f;--paper:#f6f1e7;--moss:#2f5d46;--clay:#b8582f;--line:#d9d0bd}
+*{box-sizing:border-box}body{margin:0;font:18px/1.6 Georgia,'Times New Roman',serif;color:var(--ink);background:var(--paper)}
+a{color:var(--moss)}header,main,footer{max-width:960px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:24px;padding-bottom:24px}
+.brand{font-weight:700;font-size:1.3rem;text-decoration:none;color:var(--ink)}
+nav a{margin-left:20px;text-decoration:none;font-size:.95rem}
+.hero{padding:72px 0 56px}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;color:var(--clay);margin:0}
+h1{font-size:clamp(2.4rem,7vw,4.5rem);line-height:1.05;margin:.3em 0}h1 em{color:var(--moss)}
+h2{font-size:1.8rem;margin:0 0 .5em}section{padding:40px 0;border-top:1px solid var(--line)}
+.lead{font-size:1.25rem;max-width:36em}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px}
+.card h3{margin:.2em 0}.tag{display:inline-block;font:600 .75rem/1 sans-serif;background:var(--moss);color:#fff;padding:5px 9px;border-radius:99px}
+.btn{display:inline-block;background:var(--clay);color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;font:600 1rem sans-serif}
+footer{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--line);font-size:.9rem}
+@media(max-width:560px){header{flex-direction:column;gap:8px}nav a{margin:0 10px}}
