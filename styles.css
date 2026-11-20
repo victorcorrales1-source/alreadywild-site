@@ -14,3 +14,13 @@ h2{font-size:1.8rem;margin:0 0 .5em}section{padding:40px 0;border-top:1px solid 
 .btn{display:inline-block;background:var(--clay);color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;font:600 1rem sans-serif}
 footer{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--line);font-size:.9rem}
 @media(max-width:560px){header{flex-direction:column;gap:8px}nav a{margin:0 10px}}
+.small{font-size:.85rem;color:#4a5750;max-width:36em}.signup{max-width:36em}
+/* Eye of Eden signup: EmailOctopus form in brand colours, aligned with the text (GM 11-20) */
+.signup .form-container{margin-left:0!important;padding-left:0!important}
+.signup .emailoctopus-form-row{margin-left:0!important}
+.signup input.btn-primary{background:var(--clay)!important;border-color:var(--clay)!important;color:#fff!important;font:600 1rem sans-serif!important;border-radius:8px!important;margin-left:0!important}
+.signup input.btn-primary:hover{filter:brightness(.92)}
+.signup .form-control{border-radius:8px!important}
+.signup input.btn-primary,.signup .form-control{height:42px!important;margin-top:0!important;margin-bottom:0!important;padding-top:0!important;padding-bottom:0!important}
+.signup .emailoctopus-form-row,.signup .main-form>div{margin-top:0!important;align-items:center!important}
+.signup .main-form{align-items:flex-start!important}
