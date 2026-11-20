@@ -24,3 +24,6 @@ footer{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--line);fon
 .signup input.btn-primary,.signup .form-control{height:42px!important;margin-top:0!important;margin-bottom:0!important;padding-top:0!important;padding-bottom:0!important}
 .signup .emailoctopus-form-row,.signup .main-form>div{margin-top:0!important;align-items:center!important}
 .signup .main-form{align-items:flex-start!important}
+.cards .card .tag.soon{background:#b8582f}
+.card .more{margin-top:auto}
+.list{max-width:40em;padding-left:1.2em}
